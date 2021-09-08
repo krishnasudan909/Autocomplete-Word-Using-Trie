@@ -117,7 +117,8 @@ int main()
     // for(int i=0;i<n;i++){
     //     cin>>s;
     //     insert(root, s);
-    // }
+    // } 
+    // The upper commented code is for inserting the strings without file handling
     ifstream file;
     file.open("words.txt");
     while(file >> s){
